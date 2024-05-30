@@ -1,4 +1,4 @@
-primary_colors = set(["red", "blue", "yellow"])
+primary_colors = {"red", "blue", "yellow"}
 
 color = "green"
 
@@ -7,6 +7,6 @@ if color in primary_colors:
 else:
     print(color + " is not a primary color")
 
-letters = set(['a', 'b'])
+letters = {'a', 'b'}
 letters.add('c')
 print(letters)
